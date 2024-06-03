@@ -24,8 +24,6 @@ fi
 if [ ! -d "$dest_dir" ]; then
     mkdir -p "$dest_dir"
     echo "Created directory '$dest_dir'."
-else
-    echo "Directory '$dest_dir' already exists."
 fi
 
 # Initializing game counter and output file
