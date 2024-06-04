@@ -1,3 +1,5 @@
+# Itay Zahor 208127480
+
 #!/bin/bash
 
 # Function to print usage information
