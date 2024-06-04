@@ -30,10 +30,13 @@ display_board() {
 
 # Function to apply a move
 apply_move() {
+
+  # Extract the 'from' and 'to' squares from the argument
   move=$1
   from=$(echo $move | cut -c1-2)
   to=$(echo $move | cut -c3-4)
 
+  # Apply the move
   piece=${board[$from]}
   board[$from]="."
   board[$to]=$piece
